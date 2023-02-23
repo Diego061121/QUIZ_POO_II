@@ -50,7 +50,7 @@ public class Test
 
         if(num > 10 & num < 0)
         {
-            JOptionPane.showMessageDialog("El numero tiene que ser de un digito", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null,"El numero tiene que ser de un digito: ", salida, JOptionPane.ERROR_MESSAGE);
         }
         
         //Output
